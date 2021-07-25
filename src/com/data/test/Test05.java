@@ -44,7 +44,7 @@ public class Test05 {
             c.set(Calendar.DAY_OF_WEEK,4);
             //得到周三
             k=c.getTime();
-            //date转string
+            //设置指定格式
             j=sdf.format(k);
             System.out.println("周三 " + j);
         }else{

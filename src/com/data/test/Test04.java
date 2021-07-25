@@ -31,7 +31,7 @@ public class Test04 {
         c.set(Calendar.DAY_OF_WEEK,4);
         //得到这个时间
         ri=c.getTime();
-        //date转换成string
+        //设置指定格式
         a=sdf.format(ri);
         System.out.println("促销日为 " + ri);
     }
